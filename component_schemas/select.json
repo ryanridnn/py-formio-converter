@@ -1,0 +1,8 @@
+{
+  "label": "Select",
+  "widget": "choicesjs",
+  "tableView": true,
+  "data": {},
+  "type": "select",
+  "input": true
+}

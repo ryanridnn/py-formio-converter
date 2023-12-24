@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eform ref="phq9" revision="0" noteVersion="2" title="PHQ-9 (Extended Version)" shortForm="PHQ-9" xsi:noNamespaceSchemaLocation="http://ocean.cognisantmd.com/xsd/EFormSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tagLine>For diagnosing and monitoring patients with low mood, depression, or bipolar disorder with depressive symptoms. Consider combining this form with Ocean's Depression focused history questionnaire to take a complete depression visit history.</tagLine>
+    <desc>For diagnosing and monitoring patients with low mood, depression, or bipolar disorder with depressive symptoms. PHQ9 Copyright Pfizer Inc. PRIME-MD is a trademark of Pfizer Inc.</desc>
+    <keywords>depression depressed mood low mood sadness crying dysthymia PHQ9 Patient Health Questionnaire bipolar BPD MDD MDE Beck Depression Inventory BDI</keywords>
+    <tags>
+        <tag>PSYCHIATRY</tag>
+        <tag>FAMILY_MEDICINE</tag>
+    </tags>
+    <mainSection ref="__section">
+        <items>
+            <section subcategory="QUESTIONNAIRE" headerStyle="BOLD" ref="patient_health_quest">
+                <c>Patient Health Questionnaire (PHQ-9)</c>
+                <items>
+                    <section quoteAnswers="true" headerStyle="BOLD" ref="phq9Q">
+                        <c>{over_the_last_two_weeks}Over the last two weeks, how often have you been bothered by any of the following symptoms?</c>
+                        <cNote>Over the last two weeks:\n</cNote>
+                        <items>
+                            <item ref="q1" type="MENU">
+                                <c>{q1}1. Little interest or pleasure in doing things</c>
+                                <cNote>Anhedonia: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q2" type="MENU">
+                                <c>{q2}2. Feeling down, depressed, or hopeless</c>
+                                <cNote>Low mood: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q3" type="MENU">
+                                <c>{q3}3. Trouble falling or staying asleep, or sleeping too much</c>
+                                <cNote>Sleep problems: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q4" type="MENU">
+                                <c>{q4}4. Feeling tired or having little energy</c>
+                                <cNote>Fatigue: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q5" type="MENU">
+                                <c>{q5}5. Poor appetite or overeating</c>
+                                <cNote>Appetite problems: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q6" type="MENU">
+                                <c>{q6}6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down</c>
+                                <cNote>Guilt: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q7" type="MENU">
+                                <c>{q7}7. Trouble concentrating on things, such as reading the newspaper or watching television</c>
+                                <cNote>Difficulty concentrating: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q8" type="MENU">
+                                <c>{q8}8. Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual</c>
+                                <cNote>Psychomotor changes: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                            <item ref="q9" type="MENU">
+                                <c>{q9}9. Thoughts that you would be better off dead, or of hurting yourself in some way</c>
+                                <cNote>Thoughts of being 'better off dead' or hurting self: </cNote>
+                                <validator type="MANDATORY" allowEmpty="false"/>
+                                <choices>
+                                    <choice val="Not at all" points="0.0">
+                                        <display>{not_at_all}Not at all</display>
+                                    </choice>
+                                    <choice val="Several days" points="1.0" flag="RED">
+                                        <display>{several_days}Several days</display>
+                                    </choice>
+                                    <choice val="More than half the days" points="2.0" flag="RED">
+                                        <display>{more_than_half_the_days}More than half the days</display>
+                                    </choice>
+                                    <choice val="Nearly every day" points="3.0" flag="RED">
+                                        <display>{nearly_every_day}Nearly every day</display>
+                                    </choice>
+                                </choices>
+                            </item>
+                        </items>
+                        <listSep>\n</listSep>
+                    </section>
+                    <item ref="q10" type="MENU" quoteAnswer="true">
+                        <c>{q10}If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?</c>
+                        <cNote>Ability to function:</cNote>
+                        <validator type="MANDATORY" allowEmpty="false"/>
+                        <choices>
+                            <choice val="Not difficult at all" points="0.0">
+                                <display>{not_difficult_at_all}Not difficult at all</display>
+                            </choice>
+                            <choice val="Somewhat difficult" points="1.0">
+                                <display>{somewhat_difficult}Somewhat difficult</display>
+                            </choice>
+                            <choice val="Very difficult" points="2.0">
+                                <display>{very_difficult}Very difficult</display>
+                            </choice>
+                            <choice val="Extremely difficult" points="3.0">
+                                <display>{extremely_difficult}Extremely difficult</display>
+                            </choice>
+                        </choices>
+                    </item>
+                    <item ref="dysthymiaSx" type="MENU" quoteAnswer="true">
+                        <c>{sad_2_years}In the past 2 years have you felt depressed or sad most days, even if you felt okay sometimes?</c>
+                        <cNote>Depressed thoughts on most days in the past 2 years:</cNote>
+                        <validator type="MANDATORY" allowEmpty="false"/>
+                        <choices>
+                            <choice val="No" points="0.0">
+                                <display>{no}No</display>
+                            </choice>
+                            <choice val="Not Sure" points="1.0">
+                                <display>{not_sure}Not sure</display>
+                            </choice>
+                            <choice val="Yes" points="2.0">
+                                <display>{yes}Yes</display>
+                            </choice>
+                        </choices>
+                    </item>
+                    <item ref="si" flag="RED" type="PROPOSITION">
+                        <c>{harming_yourself}Have you had any thoughts of harming yourself lately?</c>
+                        <cNote>Thoughts of self-harm</cNote>
+                        <validator type="MANDATORY" allowEmpty="false"/>
+                        <posNote>Having recent thoughts of self-harm.</posNote>
+                        <negNote>No recent thoughts of self-harm.</negNote>
+                    </item>
+                    <item ref="noteFlag" type="FORMULA" showIf="false" makeNoteIf="false" formula="si.p ? 'RED' : ''">
+                        <c>NoteFlag: $$</c>
+                    </item>
+                    <item ref="phq9SS" flag="BLUE" type="FORMULA" showIf="false" formula="ScriptUtil.sum(phq9Q)">
+                        <cNote>\nSeverity Score for @PHQ-9: $$ out of 27</cNote>
+                    </item>
+                    <item ref="i_5_9_mild_10_14_mode" type="LABEL" showIf="false" makeNoteIf="true">
+                        <c>(5-9 mild; 10-14 moderate; 15-19 moderately severe; 20-27 severe)</c>
+                    </item>
+                    <item ref="no_symptoms_of_depre" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &lt; 5">
+                        <c>No symptoms of depression.</c>
+                    </item>
+                    <item ref="depressive_symptoms_" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &gt;= 5 &amp;&amp; !(q1.p &gt;= 2 || q2.p &gt;= 2)">
+                        <c>Depressive symptoms (Q1 and Q2) not present more than half the time in past two weeks; negative screen.</c>
+                    </item>
+                    <item ref="no_functional_impair" type="LABEL" showIf="false" makeNoteIf="q10.p &lt; 1">
+                        <c>No functional impairment identified; negative screen.</c>
+                    </item>
+                    <section ref="patient_health_quest__section" showIf="false" makeNoteIf="si.p == 0 &amp;&amp; phq9SS.p &gt;= 5 &amp;&amp; (q1.p &gt;= 2 || q2.p &gt;= 2) &amp;&amp; q10.p &gt; 0">
+                        <items>
+                            <item ref="minimal_symptoms_sup" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &lt; 10">
+                                <c>Minimal Symptoms. Support, educate to call if worse; return in 1 month.</c>
+                            </item>
+                            <item ref="probable_dysthymia_c" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &gt;= 10 &amp;&amp; phq9SS.p &lt; 15 &amp;&amp; dysthymiaSx.p &gt; 0">
+                                <c>Probable dysthymia. Consider antidepressant or psychotherapy.</c>
+                            </item>
+                            <item ref="minor_depression_sup" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &gt;= 10 &amp;&amp; phq9SS.p &lt; 15 &amp;&amp; dysthymiaSx.p == 0">
+                                <c>Minor depression. Support, watchful waiting. If symptoms however are present for more than one month or there is severe functional impairment, consider active treatment with antidepressant or psychotherapy.</c>
+                            </item>
+                            <item ref="major_depression_mod" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &gt;= 15 &amp;&amp; phq9SS.p &lt; 20">
+                                <c>Major depression, moderately severe. Antidepressant or psychotherapy.</c>
+                            </item>
+                            <item ref="major_depression_sev" type="LABEL" showIf="false" makeNoteIf="phq9SS.p &gt;= 20">
+                                <c>Major depression, severe. Antidepressant *and* psychotherapy (especially if not improved on monotherapy).</c>
+                            </item>
+                        </items>
+                    </section>
+                </items>
+                <listSep>\n</listSep>
+            </section>
+        </items>
+    </mainSection>
+    <multiPage>false</multiPage>
+    <actions>
+        <action executeIf="(si.p != 0 &amp;&amp; q9.p &gt;= 1) || q9.p === 3">
+            <addEForm ref="SI"/>
+        </action>
+    </actions>
+    <stringTranslations>
+        <str locale="FR" ref="over_the_last_two_weeks">Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?</str>
+        <str locale="FR" ref="q1">1. Peu d’intérêt ou de plaisir à faire des choses</str>
+        <str locale="FR" ref="q2">2. Se sentir triste, déprimé(e) ou désespéré(e)</str>
+        <str locale="FR" ref="q3">3. Difficultés à s’endormir ou à rester endormi(e), ou trop dormir</str>
+        <str locale="FR" ref="q4">4. Se sentir fatigué(e) ou avoir peu d’énergie</str>
+        <str locale="FR" ref="q5">5. Peu d’appétit ou trop manger</str>
+        <str locale="FR" ref="q6">6. Mauvaise perception de vous-même — ou vous pensez que vous êtes un perdant ou que vous n’avez pas satisfait vos propres attentes ou celles de votre famille</str>
+        <str locale="FR" ref="q7">7. Difficultés à se concentrer sur des choses telles que lire le journal ou regarder la télévision</str>
+        <str locale="FR" ref="q8">8. Vous bougez ou parlez si lentement que les autres personnes ont pu le remarquer. Ou au contraire — vous êtes si agité(e) que vous bougez beaucoup plus que d’habitude</str>
+        <str locale="FR" ref="q9">9. Vous avez pensé que vous seriez mieux mort(e) ou pensé à vous blesser d’une façon ou d’une autre</str>
+        <str locale="FR" ref="q10">Si vous avez coché au moins un des problèmes nommés dans ce questionnaire, répondez à la question suivante : dans quelle mesure ce(s) problème(s) a-t-il (ont-ils) rendu difficile(s) votre travail, vos tâches à la maison ou votre capacité à bien vous entendre avec les autres?</str>
+        <str locale="FR" ref="not_at_all">Jamais</str>
+        <str locale="FR" ref="several_days">Plusieurs jours</str>
+        <str locale="FR" ref="more_than_half_the_days">Plus de la moitié du temps</str>
+        <str locale="FR" ref="nearly_every_day">Presque tous les jours</str>
+        <str locale="FR" ref="not_difficult_at_all">Pas du tout difficile(s)</str>
+        <str locale="FR" ref="somewhat_difficult">Assez difficile(s)</str>
+        <str locale="FR" ref="very_difficult">Très difficile(s)</str>
+        <str locale="FR" ref="extremely_difficult">Extrêmement difficile(s)</str>
+        <str locale="FR" ref="no">Non</str>
+        <str locale="FR" ref="yes">Oui</str>
+        <str locale="FR" ref="not_sure">Pas sûr</str>
+        <str locale="FR" ref="sad_2_years">Durant les deux dernières années, même si vous vous sentiez bien parfois, vous êtes-vous senti déprimé ou triste la plupart du temps?</str>
+        <str locale="FR" ref="harming_yourself">Avez-vous pensé vous faire du mal récemment?</str>
+        <str locale="AR" ref="over_the_last_two_weeks">آم عانيت من المشاكل التالية خلال الأسبوعين الماضيين؟</str>
+        <str locale="AR" ref="q1">1- قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل</str>
+        <str locale="AR" ref="q2">2- الشعور بالحزن أو ضيق الصدر أو اليأس</str>
+        <str locale="AR" ref="q3">3- صعوبة في النوم أو نوم متقطع أو النوم أكثر من المعتاد</str>
+        <str locale="AR" ref="q4">4- الشعور بالتعب أو بامتلاك القليل جداً من الطاقة</str>
+        <str locale="AR" ref="q5">5- قلة الشهية أو الزيادة في تناول الطعام عن المعتاد</str>
+        <str locale="AR" ref="q6">6- الشعور بعدم الرضا عن النفس أو الشعور بأنك قد أخذلت نفسك أو عائلتك</str>
+        <str locale="AR" ref="q7">7- صعوبة في التركيز مثلاً أثناء قراءة الصحيفة أو مشاهدة التلفزيون</str>
+        <str locale="AR" ref="q8">8- بطء في الحركه و بطء في التحدث عما هو معتاد لدرجة ملحوظة من الآخرين / أوعلى العكس من ذلك التحدث بسرعة وكثره الحركه أكثر من المعتاد</str>
+        <str locale="AR" ref="q9">9- راودتك أفكار بأنه من الأفضل لو آنت ميتا أو أفكار بأن تقوم بإيذاء النفس</str>
+        <str locale="AR" ref="q10">إذا حدث أي مشاكل إلى أي مدى منعتك هذه المشاكل من القيام بعملك أو الاعتناء بشؤونك المنزلية أو التعامل مع الناس؟</str>
+        <str locale="AR" ref="not_at_all">بدا</str>
+        <str locale="AR" ref="several_days">بعض الأيام</str>
+        <str locale="AR" ref="more_than_half_the_days">أآثر من نصف الأيام</str>
+        <str locale="AR" ref="nearly_every_day">آل يوم تقريباً</str>
+        <str locale="AR" ref="not_difficult_at_all">غير صعب بالمرة</str>
+        <str locale="AR" ref="somewhat_difficult">صعب نوعا ما</str>
+        <str locale="AR" ref="very_difficult">صعب جدا</str>
+        <str locale="AR" ref="extremely_difficult">صعب للغاية</str>
+        <str locale="AR" ref="no">لا</str>
+        <str locale="AR" ref="yes">نعم فعلا</str>
+        <str locale="AR" ref="not_sure">غير متأكد</str>
+        <str locale="AR" ref="sad_2_years">في السنتين الماضية ، هل شعرت بالاكتئاب او الحزن في معظم الأيام ، حتى وإذا شعرت بتحسن في بعض الأحيان؟</str>
+        <str locale="AR" ref="harming_yourself">هل فكرة في ايذاء نفسك في الآونة الاخيرة؟</str>
+        <str locale="hy" ref="over_the_last_two_weeks">Անցած երկու շաբաթների ընթացքում, որքան հաճախ են անհանգստացրել հետևյալ աղտանիշները (սիմպտոմներ)</str>
+        <str locale="hy" ref="q1">Փոքր հետաքրքրություն կամ հաճույք որևէ բան անելիս</str>
+        <str locale="hy" ref="q2">Տխրած, ընկճված, հուսալքված</str>
+        <str locale="hy" ref="q3">Դժվարություններ կապված արդուն մնալու հետ կամ չափազանց շատ քնել</str>
+        <str locale="hy" ref="q4">Հոգնածություն զգալ կամ ունենալ մի փոքր էներգիա</str>
+        <str locale="hy" ref="q5">Ախորժակի բացակայություն կամ շատակերություն</str>
+        <str locale="hy" ref="q6">Փեր մասին վատ եք զգում կամ դուք ձախողվում եք կամ Ձեր ընտանիքը դժվարություններ է ունենում</str>
+        <str locale="hy" ref="q7">Դժվարություններ եք ունենում կապված այնպիսի բաների հետ ինչպիսիք են թերթեր կարդալը կամ հեռուստացույց դիտելը</str>
+        <str locale="hy" ref="q8">Շարժվում կամ անգամ խոսում եք դանդա՞ղ, ինչը մարդիկ կարող են նկատե՞լ: Կամ ընդհակառակը՝ առույգ կամ անհանգիստ եք, որ շարժվում եք ավելի, քան սովորաբար:</str>
+        <str locale="hy" ref="q9">Մտքեր, որ Ձեր համար ավելի լավ կլնի մահվանից հետո, կամ ինչոր ձևով վնասել ինքներտ ձեզ</str>
+        <str locale="hy" ref="q10">Եթե դուք զգացել եք որևէ խնդիր, որքան է այդ խնդիրը դժվարացնում ձեր աշխատանքը, տնային գործերին կամ լեզու գտնել այլ մարդկանց հետ</str>
+        <str locale="hy" ref="not_at_all">Բացարձականապես ոչ</str>
+        <str locale="hy" ref="several_days">մի քանի օր</str>
+        <str locale="hy" ref="more_than_half_the_days">Ավելի քան օրվա կեսը</str>
+        <str locale="hy" ref="nearly_every_day">Գրեթե ամբողջ օրը</str>
+        <str locale="hy" ref="not_difficult_at_all">Բացարձակ դժվար չէ</str>
+        <str locale="hy" ref="somewhat_difficult">Որոշ չափով դժվար</str>
+        <str locale="hy" ref="very_difficult">Շատ դժվար</str>
+        <str locale="hy" ref="extremely_difficult">Ծայրահեղ դժվար</str>
+        <str locale="hy" ref="no">Ոչ</str>
+        <str locale="hy" ref="yes">Այո</str>
+        <str locale="hy" ref="not_sure">Վստահ չեմ</str>
+        <str locale="hy" ref="sad_2_years">Անցյալ 2 տարվա ընթացքում դուք զգացել եք ընկճախտ կամ տխուր եք եղել օրվա մեծ մասը, անգամ եթե դուք լավ եք եղել ժամանակառժամանակ</str>
+        <str locale="hy" ref="harming_yourself">Վերջերս ունեցել եք ինքներտ ձեզ վնասելու մտքեր</str>
+        <str locale="FA" ref="over_the_last_two_weeks">چند بار که شما تجربه هر یک از بیماری های زیر بیش از دو هفته گذشته؟</str>
+        <str locale="FA" ref="q1">توجه كمى يا لذت بردن به انجام كار هاى</str>
+        <str locale="FA" ref="q2">احساس سرخوردگی مي كنيد</str>
+        <str locale="FA" ref="q3">مشکلات در خواب مواجه كرديد</str>
+        <str locale="FA" ref="q4">احساس خستگی و یا داشتن انرژی کمی</str>
+        <str locale="FA" ref="q5">بی اشتهایی یا پرخوری</str>
+        <str locale="FA" ref="q6">آيا شما چیزی بد در خود يا شکست خورده با خانوادگى خود احساس مي كنيد</str>
+        <str locale="FA" ref="q7">تمركز در مشكل مانند خواندن روزنامه يا تماشاى تلوزيون</str>
+        <str locale="FA" ref="q8">حركت يا صحبت يواش يواش به طوری که دیگران آن را ملاحظه ميكند يا حركت بيش از حد معمول كنيد</str>
+        <str locale="FA" ref="q9">ايده هاى كه تو را به نحوه بي فايده تبديل ميشود يا زيان خودت به بايان رسيد</str>
+        <str locale="FA" ref="q10">اگر شما در مشكلات خود بررسى كنيد،  آيا اين مشكلات خسارت به كسب و كار خود يا علاقه مندى  به برخی از چیزهایی در خانه يا رابطه خود را با دیگران بزند؟</str>
+        <str locale="FA" ref="not_at_all">ببخشيد</str>
+        <str locale="FA" ref="several_days">چند روز</str>
+        <str locale="FA" ref="more_than_half_the_days">بیش از نیم روز</str>
+        <str locale="FA" ref="nearly_every_day">تقريبا هر روز</str>
+        <str locale="FA" ref="not_difficult_at_all">اصلا سخت نبود</str>
+        <str locale="FA" ref="somewhat_difficult">تا حدودی دشوار است</str>
+        <str locale="FA" ref="very_difficult">خيلى سخت است</str>
+        <str locale="FA" ref="extremely_difficult">بسيار دشوار است</str>
+        <str locale="FA" ref="no">خير</str>
+        <str locale="FA" ref="yes">بله</str>
+        <str locale="FA" ref="not_sure">مطمئن نيستم</str>
+        <str locale="FA" ref="sad_2_years">آيا شما افسرده و غمگین در طول دو سال گذشته احساس كنيد؟ هر چند گاهی احساس بهتر مي كرديد</str>
+        <str locale="FA" ref="harming_yourself">قبلا به خودت زيان برسانيد ، فكر كنيد؟</str>
+        <str locale="zh" ref="over_the_last_two_weeks">在過去兩個星期，你有多經常受以下問題困擾？</str>
+        <str locale="zh" ref="q1">1. 做任何事都覺得沉悶或者根本不想做任何事</str>
+        <str locale="zh" ref="q2">2. 情緒低落、抑鬱或絕望</str>
+        <str locale="zh" ref="q3">3. 難於入睡；半夜會醒或相反地睡覺時間過多</str>
+        <str locale="zh" ref="q4">4. 覺得疲倦或活力不足</str>
+        <str locale="zh" ref="q5">5. 胃口極差或進食過量</str>
+        <str locale="zh" ref="q6">6. 不喜歡自己──覺得自己做得不好、對自己失望或有負家人 期望</str>
+        <str locale="zh" ref="q7">7. 難於集中精神做事，例如看報紙或看電視</str>
+        <str locale="zh" ref="q8">8. 其他人反映你行動或說話遲緩；或者相反地，你比平常活動 更多──坐立不安、停不下來</str>
+        <str locale="zh" ref="q9">9. 想到自己最好去死或者自殘</str>
+        <str locale="zh" ref="q10">如果你剔選出以上任何問題，這些問題對你的工作、處理家中事務或與人相處時來說有多少困難？</str>
+        <str locale="zh" ref="not_at_all">完全沒有</str>
+        <str locale="zh" ref="several_days">幾天</str>
+        <str locale="zh" ref="more_than_half_the_days">一半 以上的 天數</str>
+        <str locale="zh" ref="nearly_every_day">近乎 每天</str>
+        <str locale="zh" ref="not_difficult_at_all">完全沒有困難</str>
+        <str locale="zh" ref="somewhat_difficult">有一些困難</str>
+        <str locale="zh" ref="very_difficult">非常困難</str>
+        <str locale="zh" ref="extremely_difficult">極度困難</str>
+        <str locale="zh" ref="no">沒有</str>
+        <str locale="zh" ref="yes">是</str>
+        <str locale="zh" ref="not_sure">不确定</str>
+        <str locale="zh" ref="sad_2_years">即使你有时侯感到还好，在过去两年里，多数日子里，你是否感觉到抑郁或悲伤？</str>
+        <str locale="zh" ref="harming_yourself">最近你是否有任何想伤害你自己的想法？</str>
+    </stringTranslations>
+    <refs>
+        <ref text="PHQ-9 Scoring Instructions" url="http://www.agencymeddirectors.wa.gov/files/AssessmentTools/14-PHQ-9%20overview.pdf"/>
+        <ref text="Pfizer - PHQ-9 Instructions" url="https://phqscreeners.pfizer.edrupalgardens.com/sites/g/files/g10016261/f/201412/instructions.pdf"/>
+    </refs>
+</eform>

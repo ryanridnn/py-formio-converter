@@ -1,0 +1,8 @@
+{
+  "html": "<p><strong>Hello</strong></p>",
+  "label": "Content",
+  "refreshOnChange": false,
+  "type": "content",
+  "input": false,
+  "tableView": false
+}

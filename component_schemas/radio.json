@@ -1,0 +1,8 @@
+{
+  "label": "Radio",
+  "optionsLabelPosition": "right",
+  "inline": false,
+  "tableView": false,
+  "type": "radio",
+  "input": true
+}
